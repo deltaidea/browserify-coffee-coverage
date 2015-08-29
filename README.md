@@ -1,7 +1,7 @@
 # browserify-coffee-coverage
 
-A browserify transform to take `.coffee` files and compile them into `.js` with coverage instrumentation using
-[coffee-coverage](https://github.com/benbria/coffee-coverage). `coffee-coverage` supports
+A browserify transform to take `.coffee` and `.litcoffee` files and compile them into `.js` with coverage
+instrumentation using [coffee-coverage](https://github.com/benbria/coffee-coverage). `coffee-coverage` supports
 [istanbul](https://github.com/gotwarlost/istanbul) and [jscoverage](http://siliconforks.com/jscoverage/)
 
 # Usage

@@ -59,7 +59,7 @@ module.exports = function(file, passedOptions) {
                 generatedFile: file,
                 inline: true,
                 bare: options.bare,
-                literate: false
+                literate: path.extname(file) === '.litcoffee'
             });
             transformed = new Buffer(data.js);
         }
